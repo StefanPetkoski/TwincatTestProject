@@ -3,11 +3,12 @@
   <POU Name="MAIN" Id="{a797216d-7fab-49e4-8fc0-a11a48df1647}" SpecialFunc="None">
     <Declaration><![CDATA[PROGRAM MAIN
 VAR
+	fbTest : Fb_test;
 END_VAR
 ]]></Declaration>
     <Implementation>
       <ST><![CDATA[//Test first commit
-]]></ST>
+fbTest();]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
       <LineId Id="2" Count="0" />
